@@ -19,7 +19,7 @@ export const createStore = () => {
   }
 
   s.add = add
-  s.subscribe = (cb) => s.$.subscribe(cb)
+  s.subscribe = cb => s.$.subscribe(cb)
   return s
 }
 
