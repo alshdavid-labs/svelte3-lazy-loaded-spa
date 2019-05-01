@@ -6,8 +6,7 @@ export const createStore = () => {
     items: [],
     $: undefined,
     add: undefined,
-    subscribe: undefined,
-    unsubscribe: undefined
+    subscribe: undefined
   }
 
   s.$ = new BehaviorSubject(s.items)
