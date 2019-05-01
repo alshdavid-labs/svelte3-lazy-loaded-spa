@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "file": "add.css",
+  "sources": [
+    "../src/app/platform/components/Navbar.svelte"
+  ],
+  "sourcesContent": [
+    "<style>\n\tnav {\n\t\tdisplay: flex;\n\t\tjustify-content: space-between;\n\t\talign-items: center;\n\t\theight: 60px;\n\t\tbackground-color: #666;\n\t\tcolor: white;\n\t\tpadding: 0 3%;\n\t}\n</style>\n\n<nav>\n\t<slot></slot>\n</nav>\n"
+  ],
+  "names": [],
+  "mappings": "AACC,GAAG,eAAC,CAAC,AACJ,OAAO,CAAE,IAAI,CACb,eAAe,CAAE,aAAa,CAC9B,WAAW,CAAE,MAAM,CACnB,MAAM,CAAE,IAAI,CACZ,gBAAgB,CAAE,IAAI,CACtB,KAAK,CAAE,KAAK,CACZ,OAAO,CAAE,CAAC,CAAC,EAAE,AACd,CAAC"
+}

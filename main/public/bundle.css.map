@@ -1,0 +1,18 @@
+{
+  "version": 3,
+  "file": "bundle.css",
+  "sources": [
+    "../../shared/components/Navbar.svelte",
+    "../src/app/views/Navbar.svelte",
+    "../src/platform/components/Navbar.svelte",
+    "../src/platform/components/Item.svelte"
+  ],
+  "sourcesContent": [
+    "<style>\n\tnav {\n\t\tdisplay: flex;\n\t\tjustify-content: space-between;\n\t\talign-items: center;\n\t\theight: 60px;\n\t\tbackground-color: #666;\n\t\tcolor: white;\n\t\tpadding: 0 3%;\n\t}\n</style>\n\n<nav>\n\n</nav>\n",
+    "<style>\n\tnav {\n\t\tdisplay: flex;\n\t\tjustify-content: space-between;\n\t\talign-items: center;\n\t\theight: 60px;\n\t\tbackground-color: #666;\n\t\tcolor: white;\n\t\tpadding: 0 3%;\n\t}\n</style>\n\n<nav>\n\n</nav>\n",
+    "<style>\n\tnav {\n\t\tdisplay: flex;\n\t\tjustify-content: space-between;\n\t\talign-items: center;\n\t\theight: 60px;\n\t\tbackground-color: #666;\n\t\tcolor: white;\n\t\tpadding: 0 3%;\n\t}\n</style>\n\n<nav>\n\t<slot></slot>\n</nav>\n",
+    "<script>\n\texport let title\n</script>\n<style>\n\tdiv {\n\t\tline-height: 60px;\n\t\ttext-align: center;\n\t\tbackground-color: #fafafa;\n\t\tcolor: #333;\n\t\tmargin: 8px;\n\t\tborder-radius: 4px;\n\t\tborder: solid 1px #999;\n\t}\n</style>\n\n<div>\n\t{title}\n</div>\n\n"
+  ],
+  "names": [],
+  "mappings": "AACC,GAAG,eAAC,CAAC,AACJ,OAAO,CAAE,IAAI,CACb,eAAe,CAAE,aAAa,CAC9B,WAAW,CAAE,MAAM,CACnB,MAAM,CAAE,IAAI,CACZ,gBAAgB,CAAE,IAAI,CACtB,KAAK,CAAE,KAAK,CACZ,OAAO,CAAE,CAAC,CAAC,EAAE,AACd,CAAC;ACRD,GAAG,eAAC,CAAC,AACJ,OAAO,CAAE,IAAI,CACb,eAAe,CAAE,aAAa,CAC9B,WAAW,CAAE,MAAM,CACnB,MAAM,CAAE,IAAI,CACZ,gBAAgB,CAAE,IAAI,CACtB,KAAK,CAAE,KAAK,CACZ,OAAO,CAAE,CAAC,CAAC,EAAE,AACd,CAAC;ACRD,GAAG,eAAC,CAAC,AACJ,OAAO,CAAE,IAAI,CACb,eAAe,CAAE,aAAa,CAC9B,WAAW,CAAE,MAAM,CACnB,MAAM,CAAE,IAAI,CACZ,gBAAgB,CAAE,IAAI,CACtB,KAAK,CAAE,KAAK,CACZ,OAAO,CAAE,CAAC,CAAC,EAAE,AACd,CAAC;ACLD,GAAG,cAAC,CAAC,AACJ,WAAW,CAAE,IAAI,CACjB,UAAU,CAAE,MAAM,CAClB,gBAAgB,CAAE,OAAO,CACzB,KAAK,CAAE,IAAI,CACX,MAAM,CAAE,GAAG,CACX,aAAa,CAAE,GAAG,CAClB,MAAM,CAAE,KAAK,CAAC,GAAG,CAAC,IAAI,AACvB,CAAC"
+}

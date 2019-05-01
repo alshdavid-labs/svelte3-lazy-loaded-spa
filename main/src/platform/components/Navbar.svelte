@@ -1,0 +1,15 @@
+<style>
+	nav {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		height: 60px;
+		background-color: #666;
+		color: white;
+		padding: 0 3%;
+	}
+</style>
+
+<nav>
+	<slot></slot>
+</nav>
